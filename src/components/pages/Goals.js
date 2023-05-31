@@ -13,7 +13,7 @@ export default function Successes() {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate("/main")
+        navigate("/")
     }
 
 

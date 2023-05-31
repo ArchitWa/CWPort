@@ -2,15 +2,14 @@ import ScrollButton from '../misc/ScrollButton';
 import InsightCard from '../misc/InsightCard';
 
 import { useNavigate } from 'react-router-dom';
-import { FaBrain, FaBook, FaSearch, FaCommentDots, FaPen, FaPenFancy, FaPenSquare, FaUserFriends } from 'react-icons/fa';
+import { FaBrain, FaBook, FaCommentDots, FaPenFancy, FaUserFriends } from 'react-icons/fa';
 
 export default function Successes() {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate("/main")
+        navigate("/")
     }
-
 
     return (
         <div>
